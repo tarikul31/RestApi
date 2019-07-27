@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.MoviePostActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:id="@+id/nameET"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="RealName"
+        android:id="@+id/realnameET"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="team"
+        android:id="@+id/teamET"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Apparence"
+        android:id="@+id/firstapperenceET"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="create BY"
+        android:id="@+id/createByET"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post Button"
+        android:id="@+id/btnPost"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+</LinearLayout>

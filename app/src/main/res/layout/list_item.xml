@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:background="@color/colorAsh">
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/tvrealname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="realnam"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/tvteam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="team"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/tvfirstappearance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="firstappearance"
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tvcreatedby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="createdby"/>
+
+    <TextView
+        android:id="@+id/tvpublisher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="publisher"
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tvimageurl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="imageurl"
+        android:padding="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tvbio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bio"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"/>
+</LinearLayout>
